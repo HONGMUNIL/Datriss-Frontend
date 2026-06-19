@@ -1,0 +1,20 @@
+[
+  { "id": "RF-20250603-001", "paymentId": "PAY-20250603-003", "email": "jihoon.park@example.com", "amount": 9900, "reason": "단순 변심", "requestedAt": "2025-06-03", "status": "completed" },
+  { "id": "RF-20250609-002", "paymentId": "PAY-20250609-009", "email": "jiwoo.han@example.com", "amount": 30000, "reason": "중복 결제", "requestedAt": "2025-06-09", "status": "completed" },
+  { "id": "RF-20250617-003", "paymentId": "PAY-20250617-017", "email": "jimin.hwang@example.com", "amount": 100000, "reason": "상품 불만족", "requestedAt": "2025-06-17", "status": "requested" },
+  { "id": "RF-20250624-004", "paymentId": "PAY-20250624-024", "email": "dokyung.kwak@example.com", "amount": 120000, "reason": "서비스 오류", "requestedAt": "2025-06-24", "status": "requested" },
+  { "id": "RF-20250627-005", "paymentId": "PAY-20250627-027", "email": "seoyeon.lee@example.com", "amount": 50000, "reason": "단순 변심", "requestedAt": "2025-06-27", "status": "rejected" },
+  { "id": "RF-20250628-006", "paymentId": "PAY-20250628-028", "email": "chaewon.lim@example.com", "amount": 100000, "reason": "중복 결제", "requestedAt": "2025-06-28", "status": "requested" },
+  { "id": "RF-20250629-007", "paymentId": "PAY-20250626-026", "email": "minsu.kim@example.com", "amount": 9900, "reason": "서비스 미사용", "requestedAt": "2025-06-29", "status": "completed" },
+  { "id": "RF-20250630-008", "paymentId": "PAY-20250610-010", "email": "sehun.oh@example.com", "amount": 50000, "reason": "상품 불만족", "requestedAt": "2025-06-30", "status": "rejected" },
+  { "id": "RF-20250701-009", "paymentId": "PAY-20250606-006", "email": "haneul.kang@example.com", "amount": 100000, "reason": "단순 변심", "requestedAt": "2025-07-01", "status": "requested" },
+  { "id": "RF-20250702-010", "paymentId": "PAY-20250613-013", "email": "sua.bae@example.com", "amount": 50000, "reason": "중복 결제", "requestedAt": "2025-07-02", "status": "completed" },
+  { "id": "RF-20250703-011", "paymentId": "PAY-20250620-020", "email": "raon.hong@example.com", "amount": 1200000, "reason": "서비스 오류", "requestedAt": "2025-07-03", "status": "requested" },
+  { "id": "RF-20250704-012", "paymentId": "PAY-20250604-004", "email": "yujin.choi@example.com", "amount": 30000, "reason": "단순 변심", "requestedAt": "2025-07-04", "status": "completed" },
+  { "id": "RF-20250705-013", "paymentId": "PAY-20250621-021", "email": "eunbyul.ko@example.com", "amount": 50000, "reason": "상품 불만족", "requestedAt": "2025-07-05", "status": "requested" },
+  { "id": "RF-20250706-014", "paymentId": "PAY-20250623-023", "email": "harin.jeon@example.com", "amount": 9900, "reason": "서비스 미사용", "requestedAt": "2025-07-06", "status": "rejected" },
+  { "id": "RF-20250707-015", "paymentId": "PAY-20250602-002", "email": "seoyeon.lee@example.com", "amount": 50000, "reason": "중복 결제", "requestedAt": "2025-07-07", "status": "completed" },
+  { "id": "RF-20250708-016", "paymentId": "PAY-20250625-025", "email": "minjun.sung@example.com", "amount": 30000, "reason": "단순 변심", "requestedAt": "2025-07-08", "status": "requested" },
+  { "id": "RF-20250709-017", "paymentId": "PAY-20250615-015", "email": "gaeun.moon@example.com", "amount": 9900, "reason": "서비스 오류", "requestedAt": "2025-07-09", "status": "completed" },
+  { "id": "RF-20250710-018", "paymentId": "PAY-20250622-022", "email": "siwoo.yoo@example.com", "amount": 30000, "reason": "상품 불만족", "requestedAt": "2025-07-10", "status": "rejected" }
+]

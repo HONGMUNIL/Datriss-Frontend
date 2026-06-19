@@ -1,0 +1,14 @@
+[
+  { "id": 1, "gradeName": "BASIC", "minAmount": 0, "benefit": "기본 회원 혜택", "memberCount": 8, "status": "active" },
+  { "id": 2, "gradeName": "SILVER", "minAmount": 100000, "benefit": "포인트 2% 적립", "memberCount": 6, "status": "active" },
+  { "id": 3, "gradeName": "GOLD", "minAmount": 500000, "benefit": "포인트 5% 적립 + 무료배송", "memberCount": 7, "status": "active" },
+  { "id": 4, "gradeName": "VIP", "minAmount": 1000000, "benefit": "포인트 10% 적립 + 전용상담", "memberCount": 4, "status": "active" },
+  { "id": 5, "gradeName": "PARTNER", "minAmount": 3000000, "benefit": "전 혜택 + 제휴 할인", "memberCount": 2, "status": "active" },
+  { "id": 6, "gradeName": "EVENT", "minAmount": 0, "benefit": "이벤트 기간 한정 등급", "memberCount": 3, "status": "inactive" },
+  { "id": 7, "gradeName": "STUDENT", "minAmount": 0, "benefit": "학생 인증 시 10% 할인", "memberCount": 5, "status": "active" },
+  { "id": 8, "gradeName": "FAMILY", "minAmount": 200000, "benefit": "가족 계정 공유 혜택", "memberCount": 4, "status": "active" },
+  { "id": 9, "gradeName": "TRIAL", "minAmount": 0, "benefit": "체험 기간 한정 등급", "memberCount": 6, "status": "inactive" },
+  { "id": 10, "gradeName": "LEGACY", "minAmount": 0, "benefit": "구버전 이관 회원", "memberCount": 2, "status": "inactive" },
+  { "id": 11, "gradeName": "PREMIUM", "minAmount": 700000, "benefit": "포인트 7% 적립", "memberCount": 3, "status": "active" },
+  { "id": 12, "gradeName": "CORPORATE", "minAmount": 5000000, "benefit": "법인 전용 혜택", "memberCount": 1, "status": "active" }
+]
