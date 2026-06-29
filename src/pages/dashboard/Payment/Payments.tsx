@@ -117,7 +117,9 @@ const totalPage = Math.ceil(filterPay.length / pageSize);
                     ))}
 
                 </Table>
-
+            <p className="text-sm text-slate-500">
+              총 {filterPay.length}건 · 페이지당 {pageSize}건
+            </p>
                 <PageNation
                     showPage={showPage}
                     totalPage={totalPage}

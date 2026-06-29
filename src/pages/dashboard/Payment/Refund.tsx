@@ -109,7 +109,9 @@ function Refund(){
 
 
                 </Table>
-
+            <p className="text-sm text-slate-500">
+              총 {filterRefund.length}건 · 페이지당 {pageSize}건
+            </p>
             <PageNation
                 showPage={showPage}
                 totalPage={totalPage}

@@ -10,11 +10,11 @@ import PageNation from "../../../components/common/Pagination/Pagination";
 
 const memberColumns = [
   {label: "ID", width: "w-20" },
-  {label: "이름",  },
-  {label: "이메일", },
-  {label: "가입일",},
-  {label: "등급",},
-  {label: "상태",},
+  {label: "이름",width: "w-[420px]" },
+  {label: "이메일",width: "w-[420px]" },
+  {label: "가입일",width: "w-[420px]"},
+  {label: "등급",width: "w-[140px]"},
+  {label: "상태",width: "w-[100px]" },
 ];
 
 const memberStatusOptions = [
@@ -86,7 +86,7 @@ function Members() {
   }
 
   return (
-    <div className="flex h-full flex-col bg-slate-200">
+    <div className="flex min-h-full h-full flex-col bg-slate-200">
       <p className="p-5 text-2xl font-bold text-black">회원 목록</p>
 
       <div className="m-4 flex gap-2">
@@ -130,10 +130,17 @@ function Members() {
         ))}
       </Table>
 
-      <PageNation
-        showPage={showPage}
-        totalPage={totalPage}
-        onPageChange={setShowPage}/>
+     <div className="mx-4 mt-3 pb-4">
+                    <p className="mb-2 text-sm text-slate-500">
+                        총 {filteredMembers.length}건 / 페이지당 {pageSize}건
+                    </p>
+
+                    <PageNation
+                        showPage={showPage}
+                        totalPage={totalPage}
+                        onPageChange={setShowPage}
+                    />
+                </div>
     </div>
   );
 }
